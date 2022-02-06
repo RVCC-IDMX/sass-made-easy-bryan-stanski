@@ -1,0 +1,26 @@
+{
+  "name": "sass-made-easy-bryan-stanski",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "rm -f dist/* && parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RVCC-IDMX/sass-made-easy-bryan-stanski.git"
+  },
+  "keywords": [],
+  "author": "Bryan Stanski <bryan.with.a.wi@gmail.com> (https://github.com/bryan-stanski)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RVCC-IDMX/sass-made-easy-bryan-stanski/issues"
+  },
+  "homepage": "https://github.com/RVCC-IDMX/sass-made-easy-bryan-stanski#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1",
+    "sass": "^1.49.7"
+  }
+}
