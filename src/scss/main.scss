@@ -1,5 +1,104 @@
-$red: pink;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  background: $red;
+  display: grid;
+  gap: 1rem;
+  color: #000080;
+  padding: 4vw 1vw;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  font-family: 'Merriweather', serif;
+  width: fit-content;
+  margin: 0 auto;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+h2 span {
+  display: block;
+  text-align: center;
+}
+
+.date {
+  font-size: 0.75em;
+}
+
+.poem {
+  display: grid;
+  gap: 1rem;
+}
+
+.life-img {
+  width: 200px;
+}
+
+.poem-text {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.stanza {
+  width: 100%;
+  margin: 1.5em auto;
+}
+
+figure {
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+}
+
+figcaption {
+  font-size: 0.75rem;
+}
+
+/* Media Screen for above phone Sizes */
+
+@media screen and (min-width: 768px) {
+  .life-img {
+    width: 300px;
+  }
+
+  body {
+    font-size: 1.25rem;
+  }
+  /*
+    #paragraphs {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    } */
+}
+
+/* Media Screen for above tablet sizes */
+
+@media screen and (min-width: 1024px) {
+  .life-img {
+    width: 500px;
+  }
+
+  body {
+    font-size: 1.5rem;
+  }
+
+  /* #paragraphs {
+        display: unset;
+    }
+
+    br {
+        display: none;
+    } */
 }
